@@ -1,0 +1,58 @@
+umac 693136 0 - Live 0x81500000
+ath_dev 186064 1 umac, Live 0x81f40000 (P)
+ath_rate_atheros 28656 2 umac,ath_dev, Live 0x81f38000 (P)
+ath_hal 532064 3 umac,ath_dev,ath_rate_atheros, Live 0x81400000 (P)
+asf 10016 3 umac,ath_dev,ath_hal, Live 0x81f28000 (P)
+adf 19776 3 umac,ath_dev,ath_hal, Live 0x81f30000 (P)
+nf_nat_sip 7648 0 - Live 0x81f16000
+nf_conntrack_sip 18208 1 nf_nat_sip, Live 0x81f10000
+nf_nat_rtsp 6048 0 - Live 0x81ef8000
+nf_conntrack_rtsp 10096 1 nf_nat_rtsp, Live 0x81ef4000
+nf_nat_h323 6672 0 - Live 0x81ede000
+nf_nat_tftp 1296 0 - Live 0x81eac000
+nf_conntrack_tftp 4192 1 nf_nat_tftp, Live 0x81ed8000
+nf_nat_ftp 2768 0 - Live 0x81e6e000
+nf_conntrack_ftp 7152 1 nf_nat_ftp, Live 0x81ed6000
+nf_nat_pptp 2576 0 - Live 0x81df7000
+nf_conntrack_pptp 5888 1 nf_nat_pptp, Live 0x81ece000
+tp_domain 5840 0 - Live 0x81eb2000
+athrs_gmac 59872 0 - Live 0x81e90000
+xt_mark 1504 1 - Live 0x81ddf000
+statistics 87072 0 - Live 0x81e40000
+wlan_warn 2976 0 - Live 0x81de2000
+pptp 10432 0 - Live 0x81de4000
+pppol2tp 26944 0 - Live 0x81de8000
+br_filter 1232 0 - Live 0x81d8d000
+ts_kmp 2160 1 - Live 0x81d81000
+cls_fw 4880 0 - Live 0x81ddc000
+cls_basic 4720 0 - Live 0x81dd8000
+sch_sfq 6352 0 - Live 0x81dce000
+sch_prio 5376 0 - Live 0x81dcc000
+sch_htb 17856 0 - Live 0x81dd0000
+ipt_TRIGGER 3568 0 - Live 0x81d9f000
+ipt_REJECT 2992 0 - Live 0x81dc8000
+ipt_REDIRECT 1520 0 - Live 0x81d76000
+ipt_MASQUERADE 2400 2 - Live 0x81dc5000
+iptable_nat 4720 1 - Live 0x81d74000
+iptable_filter 2352 1 - Live 0x81d7a000
+ip_tables 11824 2 iptable_nat,iptable_filter, Live 0x81dc0000
+nf_nat_proto_gre 2080 1 nf_nat_pptp, Live 0x81d79000
+nf_nat 18528 12 nf_nat_sip,nf_nat_rtsp,nf_conntrack_rtsp,nf_nat_h323,nf_nat_tftp,nf_nat_ftp,nf_nat_pptp,ipt_TRIGGER,ipt_REDIRECT,ipt_MASQUERADE,iptable_nat,nf_nat_proto_gre, Live 0x81d88000
+nf_conntrack_ipv4 14112 6 iptable_nat,nf_nat, Live 0x81dac000
+nf_defrag_ipv4 1648 1 nf_conntrack_ipv4, Live 0x81d5b000
+xt_state 1856 3 - Live 0x81d5c000
+xt_conntrack 4400 0 - Live 0x81d7c000
+nf_conntrack_h323 47280 1 nf_nat_h323, Live 0x81da0000
+nf_conntrack_proto_gre 4928 1 nf_conntrack_pptp, Live 0x81d82000
+nf_conntrack 60544 20 nf_nat_sip,nf_conntrack_sip,nf_nat_rtsp,nf_conntrack_rtsp,nf_nat_h323,nf_nat_tftp,nf_conntrack_tftp,nf_nat_ftp,nf_conntrack_ftp,nf_nat_pptp,nf_conntrack_pptp,ipt_TRIGGER,ipt_MASQUERADE,iptable_nat,nf_nat,nf_conntrack_ipv4,xt_state,xt_conntrack,nf_conntrack_h323,nf_conntrack_proto_gre, Live 0x81d90000
+ipt_multiurl 1952 0 - Live 0x81d6c000
+xt_time 2720 0 - Live 0x81d6e000
+xt_string 2208 0 - Live 0x81d65000
+xt_multiport 2848 0 - Live 0x81d6b000
+xt_mac 1376 0 - Live 0x81d67000
+xt_iprange 2128 0 - Live 0x81d59000
+xt_comment 1296 1 - Live 0x81d5a000
+xt_TCPMSS 3264 0 - Live 0x81d53000
+xt_MARK 1888 2 - Live 0x81d64000
+xt_tcpudp 2800 14 - Live 0x81d58000
+x_tables 16048 20 xt_mark,wlan_warn,ipt_TRIGGER,ipt_REJECT,ipt_REDIRECT,ipt_MASQUERADE,iptable_nat,ip_tables,xt_state,xt_conntrack,ipt_multiurl,xt_time,xt_string,xt_multiport,xt_mac,xt_iprange,xt_comment,xt_TCPMSS,xt_MARK,xt_tcpudp, Live 0x81d60000

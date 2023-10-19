@@ -1,0 +1,115 @@
+# ls *
+linuxrc
+
+bin:
+busybox       echo          kill          msh           true
+cat           ethreg        ln            ping          umount
+chmod         false         login         ps
+date          hostname      ls            rm
+df            iptables-xml  mount         sh
+
+dev:
+ar7100_flash_chrdev  ram0                 ttyS2
+ar7100_gpio_chrdev   random               ttyUSB0
+caldata              tty                  ttyUSB1
+console              tty0                 ttyUSB10
+dk0                  tty1                 ttyUSB11
+dk1                  tty2                 ttyUSB12
+kmem                 ttyACM0              ttyUSB13
+mem                  ttyACM1              ttyUSB14
+mtd0                 ttyACM10             ttyUSB15
+mtdblock0            ttyACM11             ttyUSB2
+mtdblock1            ttyACM12             ttyUSB3
+mtdblock2            ttyACM13             ttyUSB4
+mtdblock3            ttyACM14             ttyUSB5
+mtdblock4            ttyACM15             ttyUSB6
+mtdblock5            ttyACM2              ttyUSB7
+mtdblock6            ttyACM3              ttyUSB8
+mtdr0                ttyACM4              ttyUSB9
+null                 ttyACM5              ttyp0
+ppp                  ttyACM6              ttyp1
+ptmx                 ttyACM7              ttyp2
+pts                  ttyACM8              urandom
+ptyp0                ttyACM9              zero
+ptyp1                ttyS0
+ptyp2                ttyS1
+
+etc:
+ath            inittab        passwd         securetty      wpa2
+fstab          issue          ppp            services       wr941n.ico
+group          lld2d.conf     rc.d           shadow
+host.conf      nsswitch.conf  resolv.conf    wlan
+
+lib:
+ld-uClibc-0.9.30.so   libiptc.so            libresolv.so
+ld-uClibc.so.0        libiptc.so.0          libresolv.so.0
+libc.so.0             libiptc.so.0.0.0      librt-0.9.30.so
+libcrypt-0.9.30.so    libiw.so              librt.so
+libcrypt.so.0         libiw.so.29           librt.so.0
+libdl-0.9.30.so       libm-0.9.30.so        libuClibc-0.9.30.so
+libdl.so.0            libm.so               libutil-0.9.30.so
+libexec               libm.so.0             libutil.so.0
+libgcc_s.so           libmsglog.so          libwpa_common.so
+libgcc_s.so.1         libnsl-0.9.30.so      libwpa_ctrl.so
+libip4tc.so           libnsl.so             libxtables.so
+libip4tc.so.0         libnsl.so.0           libxtables.so.2
+libip4tc.so.0.0.0     libpthread-0.9.30.so  libxtables.so.2.1.0
+libip6tc.so           libpthread.so         modules
+libip6tc.so.0         libpthread.so.0       pkgconfig
+libip6tc.so.0.0.0     libresolv-0.9.30.so
+
+mnt:
+
+proc:
+1                 488               athnodefixedrate  misc
+10                489               athversion        modules
+17                491               buddyinfo         mounts
+18                492               bus               mtd
+2                 493               cmdline           net
+253               494               cpuinfo           pagetypeinfo
+254               499               crypto            partitions
+258               5                 devices           self
+3                 503               diskstats         simple_config
+301               515               driver            slabinfo
+332               6                 execdomains       softirqs
+333               602               filesystems       stat
+4                 7                 fs                sys
+454               74                interrupts        sysvipc
+456               8                 iomem             timer_list
+458               802               ioports           tty
+459               82                irq               uptime
+471               83                kallsyms          version
+474               89                kmsg              vmallocinfo
+477               9                 loadavg           vmstat
+478               93                locks             zoneinfo
+487               athdebug          meminfo
+
+root:
+
+sbin:
+80211stats        init              iwpriv            route
+apstats           insmod            klogd             syslogd
+athstats          iptables          logread           tc
+athstatsclr       iptables-multi    lsmod             udhcpc
+brctl             iptables-restore  pktlogconf        vconfig
+getty             iptables-save     pktlogdump        wifitool
+hostapd           iwconfig          reboot            wlanconfig
+ifconfig          iwlist            rmmod             wpa_supplicant
+
+sys:
+
+tmp:
+3G                dropbear          pipe_mud80        wr841n
+80211g.ap_radio   hostapd.eap_user  topology.conf
+ath0.ap_bss       httpd_ready       wpa_ctrl_74-0
+dec-model.conf    passwd            wpa_ctrl_74-1
+
+usr:
+arp        bin        net_ioctl  sbin
+
+var:
+diagno  log     run
+
+web:
+dynaform     help         localiztion  oem
+frames       images       login        userRpm
