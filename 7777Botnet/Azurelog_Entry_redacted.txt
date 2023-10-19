@@ -1,0 +1,142 @@
+Details
+
+Date (UTC)
+2023-07-20 12:49:45
+
+IP Address
+176.37.3.224
+
+Users
+<redacted>
+
+Activity
+UserLoginFailed
+
+Item
+Unknown
+
+Details
+
+CreationTime
+2023-07-20T11:49:45
+
+Id
+<redacted>
+
+Operation
+UserLoginFailed
+
+OrganizationId
+<redacted>
+
+RecordType
+15
+
+ResultStatus
+Failed
+
+UserKey
+<redacted>
+
+UserType
+0
+
+Version
+1
+
+Workload
+AzureActiveDirectory
+
+ClientIP
+176.37.3.224
+
+ObjectId
+Unknown
+
+UserId
+<redacted>
+
+AzureActiveDirectoryEventType
+1
+
+ExtendedProperties
+[
+    {
+        "Name": "ResultStatusDetail",
+        "Value": "UserError"
+    },
+    {
+        "Name": "UserAgent",
+        "Value": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+    },
+    {
+        "Name": "UserAuthenticationMethod",
+        "Value": "1"
+    },
+    {
+        "Name": "RequestType",
+        "Value": "OAuth2:Token"
+    }
+]
+ModifiedProperties
+[]
+
+Actor
+[
+    {
+        "ID": "<redacted>",
+        "Type": 0
+    },
+    {
+        "ID": "<redacted>",
+        "Type": 5
+    }
+]
+ActorContextId
+<redacted>
+
+ActorIpAddress
+176.37.3.224
+
+InterSystemsId
+<redacted>
+
+IntraSystemId
+<redacted>
+
+SupportTicketId
+
+Target
+[
+    {
+        "ID": "Unknown",
+        "Type": 0
+    }
+]
+
+TargetContextId
+<redacted
+
+ApplicationId
+<redacted>
+
+DeviceProperties
+[
+    {
+        "Name": "OS",
+        "Value": "Windows 10"
+    },
+    {
+        "Name": "BrowserType",
+        "Value": "IE"
+    },
+    {
+        "Name": "IsCompliantAndManaged",
+        "Value": "False"
+    }
+]
+ErrorNumber
+50126
+
+LogonError
+InvalidUserNameOrPassword
